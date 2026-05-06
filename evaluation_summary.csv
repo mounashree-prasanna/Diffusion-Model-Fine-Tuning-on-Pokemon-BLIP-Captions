@@ -1,0 +1,4 @@
+Model,Trainable Params,Training Steps,Training Time (min),Peak VRAM (GB),IS Score,CLIP Similarity,Human Score (avg)
+Base SD 1.5,0,0,-,-,6.032,0.3258,2.83
+LoRA,"797,184",2000,6.7,7.15,4.180,0.3314,3.83
+QLoRA,"797,184",2000,6.8,10.62,4.453,0.3261,3.50
