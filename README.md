@@ -1,6 +1,19 @@
 # Diffusion Model Fine-Tuning on Pokemon BLIP Captions (Part 2)
 
-This folder contains the notebook and result artifacts for diffusion model fine-tuning using Pokemon BLIP captions.
+This project corresponds to **Part II** of the report `Lab2_Report_Team15 (2).pdf`.
+
+## Project summary (from report)
+
+The project fine-tunes **Stable Diffusion 1.5** on the **Pokemon BLIP Captions** dataset using parameter-efficient approaches:
+
+- **LoRA**
+- **QLoRA**
+
+Evaluation in the report compares models on:
+
+- **Inception Score**
+- **CLIP similarity**
+- **Human evaluation** on in-domain and out-of-domain prompts
 
 ## Contents
 
@@ -14,4 +27,4 @@ This folder contains the notebook and result artifacts for diffusion model fine-
 
 1. Open `Part2_DiffusionFineTuning.ipynb` in Jupyter/Colab.
 2. Install dependencies referenced in the notebook.
-3. Run cells sequentially to train/evaluate and regenerate outputs.
+3. Run cells sequentially to train, evaluate, and regenerate outputs.
